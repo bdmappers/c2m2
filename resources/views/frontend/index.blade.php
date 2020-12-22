@@ -5,6 +5,7 @@
 @section('content')
 
 <section class="section-header pb-6 pb-lg-10 bg-soft">
+<!-- <section class="section-header pb-6 pb-lg-10 bg-primary text-white"> -->
     <div class="container">
 
         <div class="row justify-content-center text-center mb-4 text-secondary">
@@ -169,9 +170,151 @@
                     {!! setting('meta_description') !!}
                 </p>
             </div>
+            <div class="row justify-content-center text-dark">
+                @include('frontend.includes.messages')
+
+                <div class="col-12 col-sm-6">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <h5 class="card-title text-uppercase text-white bg-warning p-2 mb-2">New Cases</h5>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">
+                                                123
+                                            </span>
+                                            <br>
+                                            <span>
+                                                <small>Last 24 Hours</small>
+                                            </span>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">2,356</span>
+                                            <br>
+                                            <span>
+                                                <small>Total Cases</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-0 text-sm">
+                                        <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 3.48%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <h5 class="card-title text-uppercase text-white bg-primary p-2 mb-2">Tests</h5>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">
+                                                123
+                                            </span>
+                                            <br>
+                                            <span>
+                                                <small>Last 24 Hours</small>
+                                            </span>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">2,356</span>
+                                            <br>
+                                            <span>
+                                                <small>Total Tests</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-0 text-sm">
+                                        <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 3.48%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <h5 class="card-title text-uppercase text-white bg-success p-2 mb-2">Recovered</h5>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">
+                                                123
+                                            </span>
+                                            <br>
+                                            <span>
+                                                <small>Last 24 Hours</small>
+                                            </span>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">2,356</span>
+                                            <br>
+                                            <span>
+                                                <small>Total Cases</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-0 text-sm">
+                                        <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 3.48%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 text-center">
+                                            <h5 class="card-title text-uppercase text-white bg-danger p-2 mb-2">Deaths</h5>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">
+                                                123
+                                            </span>
+                                            <br>
+                                            <span>
+                                                <small>Last 24 Hours</small>
+                                            </span>
+                                        </div>
+                                        <div class="col">
+                                            <span class="h2 font-weight-bold mb-0 text-dark">2,356</span>
+                                            <br>
+                                            <span>
+                                                <small>Total Tests</small>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="mt-3 mb-0 text-sm">
+                                        <span class="text-success mr-2"><i class="fas fa-arrow-up"></i> 3.48%</span>
+                                        <span class="text-nowrap">Since last month</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{asset('img/banner-1.jpg')}}" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- <div class="pattern bottom"></div> -->
+    <div class="pattern bottom"></div>
 </section>
 <section class="section-header pb-6 pb-lg-10 bg-soft">
     <div class="container">
