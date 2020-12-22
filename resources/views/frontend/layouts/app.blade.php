@@ -23,6 +23,10 @@
     @stack('before-styles')
 
     <link rel="stylesheet" href="{{ mix('css/frontend.css') }}">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap");
+        @import url("https://fonts.googleapis.com/css?family=Noto+Sans+Bengali+UI:400,700&display=swap");
+    </style>
 
     @stack('after-styles')
 
