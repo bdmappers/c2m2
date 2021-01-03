@@ -1,0 +1,13 @@
+{
+    "name": "Covid",
+    "alias": "covid",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Covid\\Providers\\CovidServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
